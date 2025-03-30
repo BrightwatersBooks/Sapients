@@ -2,21 +2,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sapients - Chapter 1</title>
+    <title>Sapients PDF Viewer</title>
+    <meta charset="UTF-8">
     <style>
-        body, html {
+        html, body, iframe {
             margin: 0;
+            padding: 0;
             height: 100%;
-            overflow: hidden;
-        }
-        iframe {
             width: 100%;
-            height: 100%;
             border: none;
         }
     </style>
 </head>
 <body>
-    <iframe src="https://mozilla.github.io/pdf.js/web/viewer.html?file=ebook.pdf#toolbar=0&navpanes=0&view=fitH"></iframe>
+    <iframe 
+      src="https://mozilla.github.io/pdf.js/web/viewer.html?file=ebook.pdf#toolbar=0&navpanes=0&scrollbar=1&zoom=page-width" 
+      width="100%" height="100%">
+    </iframe>
 </body>
 </html>
